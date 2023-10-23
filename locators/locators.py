@@ -22,7 +22,7 @@ class SbisPageLocators:
     DOWNLOAD_LINK_FOOTER = (By.XPATH, '//a[text()="Скачать СБИС"]')
     SBIS_PLUGIN_LINK = (By.XPATH, '//div[text()="СБИС Плагин"]')
     DOWNLOAD_FILE_BUTTON = (
-        By.XPATH, '//a[text()="Скачать (Exe 3.64 МБ) "]')
+        By.XPATH, '//a[text()="Скачать (Exe 3.65 МБ) "]')
 
 
 class TensorPageLocators:
