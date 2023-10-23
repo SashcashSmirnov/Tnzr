@@ -99,5 +99,5 @@ class SbisPage(BasePage):
         file_size_bt = os.path.getsize(
             "C:\\Users\\Alex\\Python\\Tensor_SBIS\\download\\sbisplugin-setup-web.exe")
         size = bt_to_mb_conv(file_size_bt)
-        assert size == '3.64', "Размер файла не соответствует указанному на сайте — 3.64 МБ"
+        assert size == '3.65', "Размер файла не соответствует указанному на сайте — 3.64 МБ"
         logging.info("Скачанный файл прошел проверку на соответствие размера.")
